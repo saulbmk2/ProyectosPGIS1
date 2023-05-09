@@ -6,7 +6,7 @@ botones.forEach(button => {
     button.addEventListener('click', () => {
 
         const value = button.value;
-            if (value === 'CE') {
+            if (value == 'CE') {
                 resultado.value = '';
                 color.style.backgroundColor = '';
             } 
